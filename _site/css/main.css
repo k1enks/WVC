@@ -53,12 +53,14 @@ img {
 
 /* Typography */
 body {
-  font-family: 'Work Sans'; /* Make sure you have added this font in the head of your HTML! */
+  font-family: nevisBold, helvetica, arial, sans-serif; /* Make sure you have added this font in the head of your HTML! */
   color: rgb(60,60,65);
+  background-color: #FFFFF2;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.1rem;
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
 }
 p {
   margin-bottom: 1rem;
@@ -77,9 +79,11 @@ li  { font-size: 1.1rem; }
 
 /* Padding & Margin */
 
-header, footer  { padding: 1vh 2%; }
+header, footer  { padding: 1vh 2%;
+                  background-color: #FFFFF2;}
 
-section         { padding: 10vh 5%; }
+section         { padding: 10vh 5%;
+                  background-color: #FFFFF2;}
 
 .col,
 [class*=col-]   { padding: 2%; }
@@ -89,7 +93,7 @@ section         { padding: 10vh 5%; }
 
 .featured{
   background-color: #545E75; /* featured color */
-  color: white;
+  color: #FFFFF2;
 }
 .fa.featured {
   color: #545E75; /* featured color */
@@ -115,7 +119,7 @@ nav a {
     color: inherit;
 }
 nav a:hover {
-  color: #1abc9c; /* featured color */
+  color: #B50126; /* featured color */
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -204,6 +208,21 @@ footer nav .fa,
     font-size: 1.5rem;
     font-weight: normal;
     margin-bottom: 0;
+}
+
+.owl-index {
+    min-width: 100%;
+    margin: 10em, 0;
+    max-height: 70vw;
+}
+
+.banner {
+  height: 600px;
+}
+
+.no-margins {
+  margin: 0;
+  padding: 0;
 }
 
 /* Customising the snipcart pop-up */
