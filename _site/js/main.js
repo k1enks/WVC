@@ -32,9 +32,5 @@ $(document).ready( function(){
 
 
 
-
-
-
-
   //End of Document Ready function; should always be at very bottom
   });
