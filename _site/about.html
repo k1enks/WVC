@@ -29,6 +29,9 @@
 
 <!-- Links to CSS Stylesheets  -->
 
+<!-- Bootstrap -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Quicksand:300,700" rel="stylesheet">
 
@@ -47,9 +50,12 @@
     <link rel="stylesheet" href="/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
 
+
     <!-- CUSTOM STYLESHEETS - This should always be the last stylesheet in your head -->
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/specific.css">
+
+
 
 <!-- end stylesheets -->
 
@@ -104,15 +110,17 @@
       <div class="pure-pusher"> <!-- this contains all of the body of the site -->
 
         <header class="grid-middle">
-  <div class="col-6_sm-12">
+  <div class="col-5_sm-12">
     <img class="logo" src="/images/logowordstrial.gif" alt="Brand Name Here">
   </div>
-  <div class="col-6_sm-12 mob-hide">
+  <div class="col-7_sm-12 mob-hide">
     <nav class="right">
       <a href="/index"> Home </a>
       <a href="/about"> About </a>
       <a href="/blog"> Blog </a>
+      <a href="/news"> News </a>
       <a href="/vetcare"> Vet Care </a>
+      <a href="/education"> Education </a>
       <a href="/donate"> Donate </a>
       <a href="/gallery"> Gallery </a>
     </nav>
@@ -124,14 +132,14 @@
 
   <div class="col-8_sm-12">
     <H1> About </h1>
-  <p> Veterinarian Belinda Burwell has been rescuing and caring for wildlife for 30 years.  She founded the Blue Ridge Wildlife Center hotline in 2000 to answer questions and offer help with wildlife emergencies, and then in 2004 opened the  BRWC wildlife rescue center.  In 2015, she opened Wildlife Veterinary Care to fill the need for wildlife rescue and stewardship in Northern Virginia, West Virginia, and Maryland.</p>
+  <p> Veterinarian Belinda Burwell has been rescuing and caring for wildlife for more than thirty years.  She founded the Blue Ridge Wildlife Center hotline in 2000 to answer questions and offer help with wildlife emergencies, then in 2004 opened the  BRWC wildlife rescue center.  In 2015, she opened Wildlife Veterinary Care to fill the need for wildlife rescue, veterinary care, and stewardship in Northern Virginia, West Virginia, and Maryland.</p>
 </div>
 <div class="col-4_sm-12">
   <img src="/images/belindapatient1.jpg">
 </div>
 <div class="col-12">
 <p>
-Dr. Burwell is a graduate of Duke University with a B.S. in Zoology, and received her Veterinary Medical Degree from Tufts University. The majority of her study at these institutions was Zoo and Wildlife medicine. She has been rescuing and rehabilitating wildlife since 1987 and is a Certified Wildlife Rehabilitator through the International Wildlife Rehabilitation Council. She also serves on the Certified Wildlife Rehabillitator Examination Board and on the Advisory Board of the Animal Rescue Fund.  In addition, she is a Virginia Master Naturalist and Instructor.
+Dr. Burwell graduated from Duke University with a B.S. in Zoology and received her Veterinary Medical Degree from Tufts University. The majority of her study at these institutions was Zoo and Wildlife medicine. She has been rescuing and rehabilitating wildlife since 1987 and is a Certified Wildlife Rehabilitator through the International Wildlife Rehabilitation Council. She also serves on the Certified Wildlife Rehabillitator Examination Board and on the Advisory Board of the Animal Rescue Fund.  In addition, she is a Virginia Master Naturalist and Instructor.
 </p>
 </div>
 <div class="col-4_sm-12">
@@ -139,8 +147,15 @@ Dr. Burwell is a graduate of Duke University with a B.S. in Zoology, and receive
 </div>
 <div class="col-8_sm-12">
 <p>
-WVC is a 501(c)3 organization — donations are 100% tax deductible.  Please help us fulfill our mission to provide free veterinary care for injured and sick wildlife.</p>
-</p>
+WVC is a 501(c)3 organization — donations are 100% tax deductible.  Please help us fulfill our mission to provide free veterinary care for injured and sick wildlife by donating below.</p>
+<div class="donate" id="donateabout">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="83PEJUQ9VB9KJ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
 </div>
 </section>
 
@@ -150,7 +165,7 @@ WVC is a 501(c)3 organization — donations are 100% tax deductible.  Please hel
   <!-- Column 1 -->
   <div class="col-6_sm-12">
     <img class="logo" src="/images/logo.gif" alt="Brand Name Here">
-    <p> WVC is a 501(c)3 organization dedicated to providing free veterinary care for injured and sick wildlife </p>
+    <p> WVC is a 501(c)3 organization dedicated to providing free veterinary care for sick and injured wildlife </p>
   </div>
 
   <!-- Column 2 -->
@@ -159,15 +174,17 @@ WVC is a 501(c)3 organization — donations are 100% tax deductible.  Please hel
       <a href="/index"> Home </a>
       <a href="/about"> About </a>
       <a href="/blog"> Blog </a>
+      <a href="/news"> News </a>
       <a href="/vetcare"> Vet Care </a>
-      <a href="/donate"> Donate </a>
-      <a href="/gallery"> Gallery </a>
+      <a href="/education"> Education </a>
     </nav>
   </div>
 
   <!-- Column 3 -->
   <div class="col-3_sm-6_xs-12">
     <nav class="social-nav">
+      <a href="/donate"> Donate </a>
+      <a href="/gallery"> Gallery </a>
       <!-- add your social links here -->
       <a href="https://www.facebook.com/wildlifevetcare/"> <i class="fa fa-facebook"></i>Facebook </a>
       <a href="https://www.instagram.com/wildlifevetcare/"> <i class="fa fa-instagram"> </i>Instagram</a>
@@ -196,6 +213,8 @@ WVC is a 501(c)3 organization — donations are 100% tax deductible.  Please hel
 <!--- Owl Carousel -->
 <script src="/js/jquery.min.js"></script>
 <script src="/js/owl.carousel.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <!-- This is your file with custom javascript or jquery -->
 <script src="/js/main.js"></script>
