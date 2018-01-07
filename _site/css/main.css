@@ -100,6 +100,8 @@ section         { padding: 10vh 5%;
   color: #FFFFF2;
   font-weight:lighter;
 }
+
+
 .fa.featured {
   color: #545E75; /* featured color */
   background: none;
@@ -121,6 +123,10 @@ hr {
   visibility: hidden;
 }
 
+a:visited {
+  color: #B50126;
+}
+
 /* ----- HEADER & FOOTER --------------------------- */
 nav a {
     text-decoration: none;
@@ -133,6 +139,11 @@ nav a:hover {
   transition: all 0.5s;
   text-decoration: none;
 }
+
+nav a:visited {
+  color: #545E75;
+}
+
 header .logo {
   max-height: 20rem;
   max-width: 30rem;
@@ -176,6 +187,10 @@ footer nav .fa,
   min-height:80vh;
 }
 
+/*#section2 {
+  padding-top: 50rem;
+} */
+
 .box-img { /* This can be used for any col or div that you want filled with a background image. */
   background-color: grey; /* this is a fallback incase the image doesn't load */
   /*background-image: url('/images/mural.jpg'); /* if you are adding a unique image to every one you can remove this */
@@ -185,7 +200,7 @@ footer nav .fa,
 }
 
 #owl {
-  max-height: 60vh;
+  max-height: 100rem;
 }
 
 #rehab {
@@ -274,7 +289,13 @@ footer nav .fa,
   padding: 0;
 }
 
+h2 a {
+  text-decoration: none;
+}
 
+h2 a:hover {
+  text-decoration: none;
+}
 
 
 /* ----- FORMS --------------------------- */
