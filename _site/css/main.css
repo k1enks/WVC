@@ -184,6 +184,10 @@ footer nav .fa,
   min-height: 20vh;
 }
 
+#owl {
+  max-height: 60vh;
+}
+
 #rehab {
   background-image: url('/images/rehab.jpg');
 }
